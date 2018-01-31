@@ -26,8 +26,8 @@ RSpec.configure do |config|
 
   config.use_transactional_fixtures = true
 
-    # add `FactoryGirl` methods
-  config.include FactoryGirl::Syntax::Methods
+    # add `FactoryBot` methods
+  config.include FactoryBot::Syntax::Methods
 
   config.before(:suite) do
     DatabaseCleaner.clean_with(:truncation)
