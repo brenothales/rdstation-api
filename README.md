@@ -1,24 +1,64 @@
-# README
+# Business and product manager
+> A simple application for company and subscriber registrations, developed in two parts, front-end and back-end, using api / endpoint resource.
+The backend is hosted on heroku.com and the front end hosted pages.github.io on another external server using the api.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+![](header.png)
 
-* Ruby version
+## Installation
 
-* System dependencies
+Back-end: Ruby on Rails
 
-* Configuration
 
-* Database creation
+```sh
+git clone https://github.com/brenothales/rdstation-api.git
+```
 
-* Database initialization
+Installation of gem
 
-* How to run the test suite
+```sh
+cd rdstation-api && bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+Create database:
 
-* Deployment instructions
+```sh
+rails db:create && rails db:migrate
+```
 
-* ...
+Start Serve
+
+```sh
+rails s
+```
+Front-end: Angular 5
+
+```sh
+git clone https://github.com/brenothales/rdstation-client
+```
+
+Install:
+
+```sh
+npm install && ng server
+```
+
+For local authentication use
+```sh
+https://mailcatcher.me/
+```
+## Usage example
+
+Access the address will note that it will open in github, therefore the application is ho heroku. [Front-end](https://brenothales.github.io/
+and [Back-end]https://rdstationapi.herokuapp.com/
+
+## Authentication
+
+```sh
+username: demo@rdstation.com e passord:demo123456
+```
+
+
+## Meta
+
+Finish deploying the view of subscribers
