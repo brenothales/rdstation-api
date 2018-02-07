@@ -64,9 +64,10 @@ username: demo@rdstation.com e passord:demo123456
     * http://localhost:3000/api/v1/auth/
 Company index
     * http://localhost:3000/api/v1/companies/
+        [index, create, update, destroy]
 Product
     * http://localhost:3000/api/v1/products/
-
+        [create, update, destroy]
 ## Meta
 
 Finish deploying the view of subscribers
