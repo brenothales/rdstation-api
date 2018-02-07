@@ -52,7 +52,7 @@ https://mailcatcher.me/
 Access the address will note that it will open in github, therefore the application is ho heroku. [Front-end](https://brenothales.github.io/
 and [Back-end]https://rdstationapi.herokuapp.com/
 
-## Authentication
+## Authentication - DEMO
 
 ```sh
 username: demo@rdstation.com e passord:demo123456
@@ -62,7 +62,7 @@ username: demo@rdstation.com e passord:demo123456
 
 * User|Auth
     * http://localhost:3000/api/v1/auth/
-Company index
+
     * http://localhost:3000/api/v1/companies/
         [index, create, update, destroy]
 Product
