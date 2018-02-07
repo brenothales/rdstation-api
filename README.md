@@ -43,11 +43,18 @@ Install:
 npm install && ng server
 ```
 
+For more details on the front-end application:
+
+```sh
+https://github.com/brenothales/rdstation-client
+```
+
 For local authentication use
+
 ```sh
 https://mailcatcher.me/
 ```
-## Usage example
+## App in production
 
 Access the address will note that it will open in github, therefore the application is ho heroku. [Front-end](https://brenothales.github.io/
 and [Back-end]https://rdstationapi.herokuapp.com/
