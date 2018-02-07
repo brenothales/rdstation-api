@@ -58,6 +58,14 @@ and [Back-end]https://rdstationapi.herokuapp.com/
 username: demo@rdstation.com e passord:demo123456
 ```
 
+## endpoint/api
+
+* User|Auth
+    * http://localhost:3000/api/v1/auth/
+Company index
+    * http://localhost:3000/api/v1/companies/
+Product
+    * http://localhost:3000/api/v1/products/
 
 ## Meta
 
