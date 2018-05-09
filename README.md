@@ -62,7 +62,7 @@ and [Back-end]https://rdstationapi.herokuapp.com/
 ## Authentication - DEMO
 
 ```sh
-username: demo@rdstation.com e passord:demo123456
+username: demo@rdstation.com e password:demo123456
 ```
 
 ## endpoint/api
