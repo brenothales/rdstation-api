@@ -10,9 +10,6 @@ pool:
   vmImage: Default
 
 steps:
-- task: UseRubyVersion@0
-  inputs:
-    versionSpec: '>= 2.5'
 
 - script: |
     rvm use 2.4.0
