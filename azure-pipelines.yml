@@ -14,7 +14,7 @@ steps:
 - script: |
     rvm use 2.4.0
     gem install bundler
-    bundle install --retry=3 --jobs=4
+    bundle install 
   displayName: 'bundle install'
 
 - script: bundle exec rake
