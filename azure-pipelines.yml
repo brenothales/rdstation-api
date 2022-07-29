@@ -10,6 +10,8 @@ pool:
   name: Default
 
 steps:
+- script: rvm use 2.4.10
+  displayName: 'RVM USE 2.4.10'
 
 - script: |
     rvm use 2.4.0
