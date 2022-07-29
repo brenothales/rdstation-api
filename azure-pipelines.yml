@@ -14,7 +14,6 @@ steps:
   displayName: 'RVM USE 2.4.10'
 
 - script: |
-    rvm use 2.4.0
     gem install bundler
     bundle install 
   displayName: 'bundle install'
