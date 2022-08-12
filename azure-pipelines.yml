@@ -22,7 +22,7 @@ steps:
   displayName: 'bundle exec rake'
   
 - script: Gerar a identidade visual 
-  displayName: 'rails g bank ${namebank}'
+  displayName: 'rails g bank Banerj'
 
 - script: Gerar asset 
   displayName: 'rake assets:precompile'
